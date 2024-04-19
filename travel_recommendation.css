@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("./assets/bg-image.jpg");
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333333;
+  color: white;
+  height: 4rem;
+  opacity: 0.8;
+}
+.navbar h1 {
+  display: flex;
+  align-items: center;
+}
+.navbar .logo {
+  width: 3rem;
+}
+.navbar .menu {
+  display: flex;
+  gap: 4rem;
+}
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.navbar .searchbar {
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 0.5rem;
+}
+.navbar input {
+  border-radius: 1rem;
+  outline: none;
+  border: none;
+  width: 18rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+.navbar .searchbar img {
+  width: 1.5rem;
+}
+.navbar button {
+  background-color: green;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  margin-left: 1rem;
+  font-size: 1em;
+}
+
+main {
+  display: flex;
+}
+main .social_media {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-left: 2rem;
+  margin-top: 23rem;
+}
+
+main .social_media img {
+  width: 3rem;
+  height: 3rem;
+}
+
+main .title {
+  width: 20rem;
+  height: 100%;
+  display: flex;
+  margin-left: 10rem;
+  margin-top: 6rem;
+}
+main .title_body {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+}
+main .text {
+  color: white;
+}
+main .main-text {
+  font-size: 5rem;
+}
+main .sub-text {
+  color: white;
+  opacity: 0.8;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+.title_body button {
+  background-color: green;
+  color: white;
+  font-size: 1.5rem;
+  padding: 0.5rem 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 0.5rem;
+}
