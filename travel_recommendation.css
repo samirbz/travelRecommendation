@@ -66,6 +66,7 @@ body {
 
 main {
   display: flex;
+  width: 100%;
 }
 main .social_media {
   display: flex;
@@ -105,6 +106,7 @@ main .sub-text {
   font-size: 1.2rem;
   line-height: 1.5;
 }
+
 .title_body button {
   background-color: green;
   color: white;
@@ -113,4 +115,19 @@ main .sub-text {
   outline: none;
   border: none;
   border-radius: 0.5rem;
+}
+
+.searchResult {
+  margin-left: 40rem;
+  margin-top: 2rem;
+  width: 40rem;
+  height: 30rem;
+  overflow: hidden;
+  background-color: white;
+  border-radius: 0.6rem;
+}
+
+.searchResult .card-img {
+  width: 40rem;
+  height: 20rem;
 }
