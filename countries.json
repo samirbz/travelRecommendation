@@ -1,0 +1,12 @@
+{
+  "countries": [
+    {
+      "name": "Nepal",
+      "description": "A trekkers' paradise, Nepal combines Himalayan views, golden temples, charming hill villages and jungle wildlife watching to offer one of the world's great travel destinations."
+    },
+    {
+      "name": "India",
+      "description": "India is known for its rich cultural heritage, stunning architecture, diverse landscapes, and delicious cuisine."
+    },
+  ]
+}
