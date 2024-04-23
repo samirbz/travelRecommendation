@@ -23,16 +23,16 @@
           <a href="/contactUs.html">Contact Us</a>
         </ol>
       </ul>
-      <form class="searchbar" id="searchForm">
+      <div class="searchbar" id="searchForm">
         <input
           type="text"
           placeholder="Enter a destination or keyword"
-          id="place"
+          id="searchText"
         />
         <img src="./assets/icon/search.svg" alt="" />
-        <button type="submit">Search</button>
-        <button>Clear</button>
-      </form>
+        <button id="btn" onclick="myfunc()">Search</button>
+        <button onclick="clearInput()">Clear</button>
+      </div>
     </nav>
     <main>
       <div class="social_media">
@@ -52,7 +52,7 @@
           <button>Book Now</button>
         </div>
       </div>
-      <div id="travelInfo"></div>
+      <div id="main" class="search-body"></div>
     </main>
     <script src="./travel_recommendation.js"></script>
   </body>
